@@ -29,7 +29,7 @@
                         <a href="#questions" class="nav-link">FAQ's</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#instructor" class="nav-link">Instructors</a>
+                        <a href="#instructors" class="nav-link">Instructors</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
                         technologies and
                         prepare them for
                         their future web dev role</p>
-                    <button type="button " class="btn btn-outline-primary " data-bs-toggle="button">Start
+                    <button type="button " class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enroll" >Start the
                         Enrollment</button>
                 </div>
 
@@ -250,6 +250,124 @@
             </div>
         </div>
     </section>
+    <section id="instructors" class="bg-primary p-5">
+        <div class="container">
+            <h2 class="text-center text-white bold">Our Instructors</h2>
+            <p class="text-center text-white bold mb-5">
+                Our Instructors have 5+ years work experience as Web Developer in the industry
+            </p>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/1.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">John Doe</h3>
+                            <p class="bold text-dark mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, iste repellat.
+                                Optio ex dolorem minus accusamus
+                            </p>
+                            <a href="#"><i class="bi bi-twitter mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-facebook mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-linkedin mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-instagram mx-1 text-dark"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Peter Smith</h3>
+                            <p class="bold text-dark mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, iste repellat.
+                                Optio ex dolorem minus accusamus
+                            </p>
+                            <a href="#"><i class="bi bi-twitter mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-facebook mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-linkedin mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-instagram mx-1 text-dark"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Sara Doe</h3>
+                            <p class="bold text-dark mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, iste repellat.
+                                Optio ex dolorem minus accusamus
+                            </p>
+                            <a href="#"><i class="bi bi-twitter mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-facebook mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-linkedin mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-instagram mx-1 text-dark"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/14.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">David De gea</h3>
+                            <p class="bold text-dark mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, iste repellat.
+                                Optio ex dolorem minus accusamus
+                            </p>
+                            <a href="#"><i class="bi bi-twitter mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-facebook mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-linkedin mx-1 text-dark"></i></a>
+                            <a href="#"><i class="bi bi-instagram mx-1 text-dark"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead"> Copyright &copy; 2021 Karthik's Bootcamp</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
+        </div>
+    </footer>
+    <div class="modal fade" id="enroll" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Fill out this form and we'll get back to you</p>
+              <form >
+                  <div class="mb-3">
+                      <label for="first-name" class="form-label">First Name</label>
+                      <input type="text" id="first-name" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label for="last-name" class="form-label">Last Name</label>
+                    <input type="text" id="last-name" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" id="Email" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="Phone" class="form-label">Phone</label>
+                    <input type="number" id="Phone" class="form-control">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enroll</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
