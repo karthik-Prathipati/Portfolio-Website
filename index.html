@@ -14,7 +14,7 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">Karthik's Bootcamp</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" href="#navmenu">
@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#learn" class="nav-link">Courses</a>
+                        <a href="#learn" class="nav-link">What you'll learn</a>
                     </li>
                     <li class="nav-item">
                         <a href="#questions" class="nav-link">FAQ's</a>
@@ -117,7 +117,7 @@
         </div>
     </section>
     <!-- Learn -->
-    <section class="p-5" id="#learn">
+    <section class="p-5" id="learn">
         <div class="container">
             <div class="row align-text-center justify-content-between">
                 <div class="col-md p-5">
@@ -143,7 +143,7 @@
         </div>
     </section>
     <!-- React -->
-    <section class="p-5 bg-dark text-light" id="#learn">
+    <section class="p-5 bg-dark text-light" id="learn">
         <div class="container">
 
             <div class="row align-text-center justify-content-between">
@@ -167,6 +167,86 @@
                 </div>
 
 
+            </div>
+        </div>
+    </section>
+    <!-- Accordion -->
+    <section class="p-5 text-center">
+        <div class="container">
+            <div class="h2 mb-4 bold">Frequently asked Questions</div>
+            <div class="accordion" id="questions">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="item-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-1">
+                            Where exactly are you Located ?
+                        </button>
+                    </h2>
+                    <div id="question-1" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sequi, dolore doloribus
+                                quasi repellendus sint corrupti magni ullam? In totam vitae doloribus quis facere
+                                deleniti nulla mollitia delectus sit deserunt hic quo cum, sunt corrupti fuga porro
+                                ipsam fugit. Eos voluptate, libero magni ullam dolorem dolorum vero! Unde, vel totam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="item-2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-2">
+                            How much does it cost to enroll ?
+                        </button>
+                    </h2>
+                    <div id="question-2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="item-3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-3">
+                            Will you help me find a job ?
+                        </button>
+                    </h2>
+                    <div id="question-3" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="item-4">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-4">
+                            How do I enroll to this course ?
+                        </button>
+                    </h2>
+                    <div id="question-4" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sequi, dolore doloribus
+                                quasi repellendus sint corrupti magni ullam? In totam vitae doloribus quis facere
+                                deleniti nulla mollitia delectus sit deserunt hic quo cum, sunt corrupti fuga porro
+                                ipsam fugit. Eos voluptate, libero magni ullam dolorem dolorum vero! Unde, vel totam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
